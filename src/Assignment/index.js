@@ -4,7 +4,6 @@ import ImageComponent from './ImageComponent';
 import styles from './styles.module.css';
 import pngwing from '../Assignment/Images/pngwing.png'
 import BoxContent from './BoxContent';
-import EndContent from './EndContent';
 
 const MAPPING = ['About','Pricing','Review']
 
@@ -50,10 +49,6 @@ const Assignment = ()=>{
 
             <div className={styles.about_the_course}>
                 <AboutTheCourse/>
-            </div>
-
-            <div className={styles.end_content}>
-                <EndContentdcdxsx/>
             </div>
 
         </div>
