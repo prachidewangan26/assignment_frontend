@@ -53,7 +53,7 @@ const Assignment = ()=>{
             </div>
 
             <div className={styles.end_content}>
-                <EndContent/>
+                <EndContentdcdxsx/>
             </div>
 
         </div>
