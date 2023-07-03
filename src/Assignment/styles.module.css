@@ -1,0 +1,81 @@
+.container{
+    /* width:100% */
+}
+
+.upper_container{
+    position:relative;
+    color: #ffffff;
+    font-weight: 500;
+    width:100%
+}
+
+.box{
+    width:500px;
+    height:450px;
+    background-color: #7a3299;
+    border-radius: 0px 0px 500px 0px ;
+    position: absolute;
+}
+
+.logo{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-width: 118vh 193vh 0 0;
+    border-style: solid;
+    border-color: #381b56 transparent transparent transparent;
+    position: absolute;
+}
+
+.obtuse_angle_triangle {
+    position: absolute;
+    right:0;
+    width: 700px;
+    height: 700px;
+    background: linear-gradient(to top left,#7a3299 ,#381b56);
+    clip-path: polygon(0% 0%, 100% 0%, -90% 130%);
+}
+
+.header_content{
+    position: absolute;
+    top:200px;
+    left:200px;
+    z-index: 1;
+}
+
+.image_content{
+    position: absolute;
+    top:180px;
+    right:60px;
+}
+
+.background_image{
+    position: absolute;
+    top:530px;
+    right:0px
+}
+
+.about_the_course{
+    position: absolute;
+    top:840px;
+    right:200px
+}
+
+.box_content{
+    position: absolute;
+    top:800px;
+    left:140px
+}
+
+.end_content{
+    position: absolute;
+    top:1200px;
+    color:black;
+    z-index: 1;
+
+}
+

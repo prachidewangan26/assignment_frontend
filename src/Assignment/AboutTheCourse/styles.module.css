@@ -1,0 +1,27 @@
+.container{
+    color: black;
+    position: relative;
+}
+
+.header{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.content{
+    width:380px;
+    padding-top: 30px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.explore_now_button{
+    padding: 18px 48px;
+    width:fit-content;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #4776E6, #8E54E9);
+    font-weight: 800;
+    margin-top: 50px;
+    font-size: 20px;
+    color:#ffffff
+}
